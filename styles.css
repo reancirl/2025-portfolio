@@ -183,7 +183,7 @@ nav {
 }
 
 .project-card h3 {
-    color: #333;
+    color: #00704a;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -200,7 +200,7 @@ nav {
 }
 
 .project-links a {
-    color: #0066cc;
+    color: #00704a;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -208,6 +208,31 @@ nav {
 
 .project-links a:hover {
     text-decoration: underline;
+}
+
+/* Career items */
+.career-item {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.career-item:last-child {
+    border-bottom: none;
+}
+
+.career-item h3 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.career-period {
+    color: #00704a;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
 }
 
 /* Links page */
